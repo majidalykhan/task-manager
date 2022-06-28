@@ -7,20 +7,11 @@
 :root {
   /* COLORS  */
   /* primary */
-  --primary-0: #f0efff;
-  --primary-50: #d8d6ff;
-  --primary-100: #c1beff;
-  --primary-200: #aaa5ff;
-  --primary-300: #938dff;
-  --primary-400: #7b74ff;
-  /* main */
-  --primary-500: #645cff;
-  --primary-600: #554ed9;
-  --primary-700: #4640b3;
-  --primary-800: #37338c;
-  --primary-900: #282566;
-  --primary-1000: #191740;
-  --primary-1100: #0a0919;
+  --primary-100: #DFF6FF;
+  --primary-200: #2D31FA;
+  --primary-300: #5D8BF4;
+  --primary-400: #051367;
+
   /* grey */
   --grey-0: #fafbfc;
   --grey-50: #f2f4f8;
@@ -46,7 +37,7 @@
 
   /* typography */
   --headingFont: 'Inconsolata', monospace;
-  --bodyFont: 'Montserrat', sans-serif;
+  --bodyFont: 'Helvetica', sans-serif;
   --smallText: 0.7em;
   /* rest */
   --backgroundColor: var(--grey-50);
@@ -137,7 +128,7 @@ a {
   cursor: pointer;
   appearance: none;
   color: var(--white);
-  background: var(--primary-500);
+  background: var(--primary-300);
   border: none;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -149,7 +140,7 @@ a {
 
 .btn:hover {
   color: var(--white);
-  background: var(--primary-700);
+  background: var(--primary-400);
   box-shadow: var(--shadow-2);
 }
 button.small {
@@ -157,8 +148,8 @@ button.small {
   font-size: var(--smallText);
 }
 button.hipster {
-  color: var(--primary-500);
-  background: var(--primary-50);
+  color: var(--primary-200);
+  background: var(--primary-100);
   box-shadow: var(--shadow-1);
 }
 button.hipster:hover {

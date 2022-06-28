@@ -19,18 +19,18 @@ const showTasks = async () => {
       .map((task) => {
         const { completed, _id: taskID, name } = task
         return `<div class="single-task ${completed && 'task-completed'}">
-<h5><span><i class="far fa-check-circle"></i></span>${name}</h5>
+<h5><span><img src="https://img.icons8.com/fluency/20/000000/checkmark.png"/></span>${name}</h5>
 <div class="task-links">
 
 
 
 <!-- edit link -->
 <a href="task.html?id=${taskID}"  class="edit-link">
-<i class="fas fa-edit"></i>
+<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/20/000000/external-edit-web-flaticons-lineal-color-flat-icons-9.png"/>
 </a>
 <!-- delete btn -->
 <button type="button" class="delete-btn" data-id="${taskID}">
-<i class="fas fa-trash"></i>
+<img src="https://img.icons8.com/plasticine/25/000000/filled-trash.png"/>
 </button>
 </div>
 </div>`
